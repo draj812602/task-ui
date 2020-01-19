@@ -2,7 +2,7 @@
     <div>
  <carousel-3d>
     <slide v-for="(slide, i) in packages" :key="slide.package_id" :index="i">
-      <img :src="'http://file_server.maharah.neumtech.net/api/Storages/Packages/download/'+slide.file_name" alt="55">
+      <img :src="'https://file_server.maharah.neumtech.net/api/Storages/Packages/download/'+slide.file_name" alt="55">
     </slide>
   </carousel-3d>
     </div>

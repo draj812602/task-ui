@@ -29,7 +29,7 @@ export default {
   },
   created(){
       this.visible = true
-     axios.get('http://customer_server.maharah.neumtech.net/api/Customers/homeData?access_token=6w9gKvM9bos9AEbiEvHOhmfWhtP8Yi0XWF2JJ9taXSFdaHFgoDJgRpWYXMjOYoey')
+     axios.get('https://customer_server.maharah.neumtech.net/api/Customers/homeData?access_token=6w9gKvM9bos9AEbiEvHOhmfWhtP8Yi0XWF2JJ9taXSFdaHFgoDJgRpWYXMjOYoey')
    .then((res)=>{
      this.categorys=res.data.data.category
      this.visible = false
